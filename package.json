@@ -1,0 +1,22 @@
+{
+  "name": "sitl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancmontes13/SITL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancmontes13/SITL/issues"
+  },
+  "homepage": "https://github.com/juancmontes13/SITL#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
