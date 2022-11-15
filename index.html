@@ -5,7 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>SITL | Servicios Integrados de Telemercadeo y Logistica</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="nav collapsible">
+      <a class="nav__brand" href="/"
+        ><img class="nav--logo" src="./images/sitl-logo.png" alt=""
+      /></a>
+      <svg class="icon--nav nav--toggler">
+        <use xlink:href="images/sprite-nav-sitl.svg#list"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Quienes Somos</a></li>
+        <li class="nav__item"><a href="#">Servicios</a></li>
+        <li class="nav__item"><a href="#">Contáctanos</a></li>
+        <li class="nav__item"><a href="#">Login</a></li>
+      </ul>
+    </nav>
+    <img src="./images/sprite-hero.svg" alt="" />
+    <section>
+      <div class="hero--container grid grid--1x2">
+        <img
+          class="hero--image"
+          src="./images/support-team-naranja.png"
+          alt=""
+        />
+        <div>
+          <h1 class="hero--heading">
+            Servicios Integrados de Telemercadeo y Logistica
+          </h1>
+        </div>
+      </div>
+    </section>
+    <div class="features">
+      <div class="quienesSomos--container">
+        <img
+          class="quienesSomos--image"
+          src="./images/organizational-agility.png"
+          alt=""
+        />
+
+        <div>
+          <h2>Quienes Somos</h2>
+          <p class="quienesSomos--text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
+            incidunt non corrupti soluta aperiam reprehenderit nobis pariatur?
+            Consequatur, modi voluptatum ea quidem alias aliquid, consequuntur
+            sit facere quod quaerat debitis? Quia fugiat quibusdam, dolorem at
+            rerum corrupti voluptatem repellendus.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/menu.js"></script>
+  </body>
 </html>

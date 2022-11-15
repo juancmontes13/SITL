@@ -1,0 +1,40 @@
+
+   
+    .quienesSomos--text{
+        color: $color-body;
+        text-align: center;
+    }
+    .quienesSomos--image{
+        width: 100%;
+        max-width: 500px;
+        min-width: 350px;
+    }      
+    
+    
+    .quienesSomos--container{
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        color: $color-headings;
+        text-align: center;
+        
+    }
+           
+    
+
+@media screen and (min-width: 760px) {
+    .quienesSomos--container{
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    }
+    h2{
+        text-align: start;
+        margin-top: 5rem;
+    }
+    .quienesSomos--text{
+        text-align: start;
+        margin-top: 2rem;
+    }
+}

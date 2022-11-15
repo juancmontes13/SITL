@@ -1,0 +1,53 @@
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.icon--small{
+    width: 45px;
+    height: 45px;
+    margin: 0.5;
+}
+.icon--nav{
+    width: 35px;
+    height: 35px;
+    margin: 0.5rem 1rem;
+    
+}
+.icon--space{
+    fill: #000;
+    height: 30px;
+    width: 30px;
+}
+.icon--primary{
+    fill: var(--color-accent);
+}
+.icon--white{
+    fill: #fff;
+}
+
+.icon-container{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-color: #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+.icon-container--accent{
+    background-color: var(--color-accent);
+}
+.icon--space-dos {
+    display: none;
+}
+.icon--card{
+    height: 35px;
+    width: 35px;
+}
+.icon--card:hover{
+    fill: var(--color-primary);
+    scale: 1.1;
+    transition: .3s;
+}
