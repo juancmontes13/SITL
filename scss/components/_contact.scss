@@ -1,0 +1,75 @@
+.form--glass{
+ 
+    /* From https://css.glass */
+background: rgba(37, 150, 190, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .formContainer{
+        padding: 0 2rem;
+        
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        font-family: 'Montserrat', sans-serif;
+            
+    }
+    .legenda{
+        text-align: center;
+        margin: 6rem 0 0 0;
+
+    }
+    .form__input{
+        font-family: 'Montserrat', sans-serif;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 7px;
+        border: 0;
+        font-size: 1.3rem;
+        outline: none;
+    }
+    
+    .form--container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem;
+     
+    }
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .imageContainer{
+        padding: 0 3rem;
+        max-width: 500px
+    
+    }
+    .contactImage{
+        width: 100%;       
+    }
+    @media screen and (min-width: 768px) {
+        .contact{
+            flex-direction: row;
+        }
+        .formulario{
+         margin: 1rem;
+        }
+        
+    }
+
+    @media screen and (min-width: 1000px) {
+        .form__input{
+            font-size: 1.7rem;
+        }
+
+        
+    }

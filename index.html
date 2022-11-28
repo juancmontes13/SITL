@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>SITL | Servicios Integrados de Telemercadeo y Logistica</title>
   </head>
   <body>
@@ -43,15 +47,15 @@
         </div>
       </div>
     </section>
-    <div class="features">
-      <div class="quienesSomos--container">
+    <div>
+      <div class="quienesSomos--container features">
         <img
           class="quienesSomos--image"
           src="./images/organizational-agility.png"
           alt=""
         />
 
-        <div>
+        <div class="who">
           <h2>Quienes Somos</h2>
           <p class="quienesSomos--text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
@@ -63,6 +67,78 @@
         </div>
       </div>
     </div>
+
+    <div>
+      <div class="quienesSomos--container services">
+        <img
+          class="quienesSomos--image"
+          src="./images/team-meeting-illustration.png"
+          alt=""
+        />
+
+        <div class="who">
+          <h3>Servicios</h3>
+          <p class="quienesSomos--text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
+            incidunt non corrupti soluta aperiam reprehenderit nobis pariatur?
+            Consequatur, modi voluptatum ea quidem alias aliquid, consequuntur
+            sit facere quod quaerat debitis? Quia fugiat quibusdam, dolorem at
+            rerum corrupti voluptatem repellendus.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact">
+      <div class="formContainer">
+        <h4 class="legenda">Contáctanos</h4>
+        <div class="form--container">
+          <form class="form--glass" action="post">
+            <fieldset class="formulario">
+              <input
+                class="form__input"
+                type="text"
+                name="Nombre"
+                placeholder="Nombre"
+              />
+              <input
+                class="form__input"
+                type="email"
+                name="num"
+                id="email"
+                placeholder="Email"
+              />
+              <input
+                class="form__input"
+                type="tel "
+                name="telefono"
+                id="telefono"
+                placeholder="Teléfono"
+              />
+
+              <textarea
+                class="form__input"
+                name="mensaje"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Escribe tu mensaje"
+              ></textarea>
+              <input
+                class="form__input boton boton--primary"
+                type="submit"
+                value="Enviar"
+                onclick="alert('Tu información ha sido enviada')"
+              />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="imageContainer">
+        <img class="contactImage" src="./images/message-received.png" alt="" />
+      </div>
+    </section>
+
     <script src="./javascript/menu.js"></script>
   </body>
 </html>
