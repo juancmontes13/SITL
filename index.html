@@ -19,16 +19,16 @@
   </head>
   <body>
     <nav id="navBar" class="nav collapsible">
-      <a class="nav__brand" href="/"
+      <a class="nav__brand" href="#"
         ><img class="nav--logo" src="./images/sitl-logo.png" alt=""
       /></a>
       <svg class="icon--nav nav--toggler">
         <use xlink:href="images/sprite-nav-sitl.svg#list"></use>
       </svg>
       <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">Quienes Somos</a></li>
-        <li class="nav__item"><a href="#">Servicios</a></li>
-        <li class="nav__item"><a href="#">Contáctanos</a></li>
+        <li class="nav__item"><a href="#whoAreWe">Quienes Somos</a></li>
+        <li class="nav__item"><a href="#services">Servicios</a></li>
+        <li class="nav__item"><a href="#contactUs">Contáctanos</a></li>
         <li class="nav__item"><a href="./pages/Login.html">Login</a></li>
       </ul>
     </nav>
@@ -55,7 +55,7 @@
           alt=""
         />
 
-        <div class="who">
+        <div id="whoAreWe" class="who">
           <h2>Quienes Somos</h2>
           <p class="quienesSomos--text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
@@ -76,7 +76,7 @@
           alt=""
         />
 
-        <div class="who">
+        <div id="services" class="who">
           <h3>Servicios</h3>
           <p class="quienesSomos--text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
@@ -89,7 +89,7 @@
       </div>
     </div>
 
-    <section class="contact">
+    <section id="contactUs" class="contact">
       <div class="formContainer">
         <h4 class="legenda">Contáctanos</h4>
         <div class="form--container">
