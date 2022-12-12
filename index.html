@@ -18,7 +18,7 @@
     <title>SITL | Servicios Integrados de Telemercadeo y Logistica</title>
   </head>
   <body>
-    <nav class="nav collapsible">
+    <nav id="navBar" class="nav collapsible">
       <a class="nav__brand" href="/"
         ><img class="nav--logo" src="./images/sitl-logo.png" alt=""
       /></a>
@@ -29,7 +29,7 @@
         <li class="nav__item"><a href="#">Quienes Somos</a></li>
         <li class="nav__item"><a href="#">Servicios</a></li>
         <li class="nav__item"><a href="#">Contáctanos</a></li>
-        <li class="nav__item"><a href="#">Login</a></li>
+        <li class="nav__item"><a href="./pages/Login.html">Login</a></li>
       </ul>
     </nav>
     <img src="./images/sprite-hero.svg" alt="" />
@@ -119,7 +119,7 @@
               <textarea
                 class="form__input"
                 name="mensaje"
-                id=""
+                id="textArea"
                 cols="30"
                 rows="10"
                 placeholder="Escribe tu mensaje"
@@ -138,6 +138,19 @@
         <img class="contactImage" src="./images/message-received.png" alt="" />
       </div>
     </section>
+
+    <footer>
+      <div class="footer--padre">
+        <div class="footer--container">
+          <a class="ancla--footer" href="#navBar">
+            <img class="nav--logo" src="./images/sitl-logo.png" alt="" />
+          </a>
+        </div>
+        <p class="footer__text">
+          Juan Montes - Todos los derechos reservados 2022
+        </p>
+      </div>
+    </footer>
 
     <script src="./javascript/menu.js"></script>
   </body>

@@ -44,9 +44,9 @@ h4{
 }
 a {
     text-decoration: none;
-    color: lightgray;
+    color: white;
     &:hover {
-        color: #C9C5EA;
+        color: $color-accent;
        }
 }
 

@@ -32,34 +32,25 @@
         <li class="nav__item"><a href="#">Login</a></li>
       </ul>
     </nav>
-    <section class="contact">
-      <div class="imageContainer">
-        <img class="contactImage" src="../images/keyImage.png" alt="" />
-      </div>
-      <div class="formContainer">
-        <h4 class="legenda">Log In</h4>
-        <div class="form--container">
-          <form class="form--glass" action="post">
-            <fieldset class="formulario">
-              <input
-                class="form__input"
-                type="email"
-                id="email"
-                placeholder="Email"
-              />
-              <input
-                id="password"
-                class="form__input"
-                type="password"
-                name="Nombre"
-                placeholder="Password"
-              />
-              <button id="buttonLogin" class="form__input boton boton--primary">
-                Login
-              </button>
-            </fieldset>
-          </form>
+
+    <section class="hero--container grid grid--1x2">
+      <div>
+        <div>
+          <h1 id="saludo" class="hero--heading portalHeroText">
+            Bienvenido a Tu Portal
+          </h1>
+
+          <div class="actionsMenu">
+            <ul class="list">
+              <li><a href="">Clientes</a></li>
+              <li><a href="">Crear Cliente</a></li>
+              <li><a href="">Borrar Cliente</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <div>
+        <img class="portalImage" src="../images/slack-slack.png" alt="" />
       </div>
     </section>
 
@@ -75,8 +66,6 @@
         </p>
       </div>
     </footer>
-
     <script src="../javascript/menu.js"></script>
-    <script src="../javascript/login.js"></script>
   </body>
 </html>
