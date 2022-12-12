@@ -93,7 +93,11 @@
       <div class="formContainer">
         <h4 class="legenda">Contáctanos</h4>
         <div class="form--container">
-          <form class="form--glass" action="post">
+          <form
+            class="form--glass"
+            action="https://formspree.io/f/mgeqgbwj"
+            method="POST"
+          >
             <fieldset class="formulario">
               <input
                 class="form__input"
@@ -124,12 +128,9 @@
                 rows="10"
                 placeholder="Escribe tu mensaje"
               ></textarea>
-              <input
-                class="form__input boton boton--primary"
-                type="submit"
-                value="Enviar"
-                onclick="alert('Tu información ha sido enviada')"
-              />
+              <button class="form__input boton boton--primary" type="submit">
+                Enviar
+              </button>
             </fieldset>
           </form>
         </div>
