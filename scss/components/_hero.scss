@@ -1,12 +1,16 @@
+.heroSection {
+    margin-top: 7rem;
+}
+
 .hero--container{
     margin: 3rem;
 
     .hero--image{
         width: 100%;
-        max-width: 700px;
+        max-width: 500px;
     }
     .hero--heading{
-       
+    
         text-align: center;
         margin: 2rem;
         
@@ -16,6 +20,10 @@
 @media screen and (min-width:760px) {
     .hero--heading{
         font-size: 4rem;
+    }
+    .hero--image{
+      
+        max-width: 500px;
     }
     
 }

@@ -215,12 +215,16 @@ a:hover {
     border: 0;
   }
 }
+.heroSection {
+  margin-top: 7rem;
+}
+
 .hero--container {
   margin: 3rem;
 }
 .hero--container .hero--image {
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
 }
 .hero--container .hero--heading {
   text-align: center;
@@ -230,6 +234,9 @@ a:hover {
 @media screen and (min-width: 760px) {
   .hero--heading {
     font-size: 4rem;
+  }
+  .hero--image {
+    max-width: 500px;
   }
 }
 .quienesSomos--text {
@@ -332,6 +339,7 @@ h2 {
   flex-direction: column-reverse;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .imageContainer {
@@ -341,6 +349,10 @@ h2 {
 
 .contactImage {
   width: 100%;
+}
+
+.keyImage {
+  padding-top: 5rem;
 }
 
 @media screen and (min-width: 768px) {

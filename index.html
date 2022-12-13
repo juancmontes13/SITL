@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>SITL | Servicios Integrados de Telemercadeo y Logistica</title>
   </head>
   <body>
@@ -32,9 +33,13 @@
         <li class="nav__item"><a href="./pages/Login.html">Login</a></li>
       </ul>
     </nav>
-    <img src="./images/sprite-hero.svg" alt="" />
-    <section>
-      <div class="hero--container grid grid--1x2">
+
+    <section class="heroSection">
+      <div
+        class="quienesSomos--container features hero--container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <img
           class="hero--image"
           src="./images/support-team-naranja.png"
@@ -47,7 +52,7 @@
         </div>
       </div>
     </section>
-    <div>
+    <div data-aos="fade-up" data-aos-duration="1000">
       <div class="quienesSomos--container features">
         <img
           class="quienesSomos--image"
@@ -68,11 +73,11 @@
       </div>
     </div>
 
-    <div>
+    <div data-aos="fade-up" data-aos-duration="1000">
       <div class="quienesSomos--container services">
         <img
           class="quienesSomos--image"
-          src="./images/team-meeting-illustration.png"
+          src="./images/remote-team.png"
           alt=""
         />
 
@@ -89,7 +94,12 @@
       </div>
     </div>
 
-    <section id="contactUs" class="contact">
+    <section
+      id="contactUs"
+      class="contact"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div class="formContainer">
         <h4 class="legenda">Contáctanos</h4>
         <div class="form--container">
@@ -152,7 +162,10 @@
         </p>
       </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./javascript/menu.js"></script>
   </body>
 </html>

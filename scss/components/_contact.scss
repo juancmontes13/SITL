@@ -47,6 +47,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
         flex-direction: column-reverse;
         justify-content: space-evenly;
         align-items: center;
+        margin-bottom: 5rem;
     }
     .imageContainer{
         padding: 0 3rem;
@@ -55,6 +56,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     }
     .contactImage{
         width: 100%;       
+    }
+
+    .keyImage{
+        padding-top: 5rem;
     }
     @media screen and (min-width: 768px) {
         .contact{
