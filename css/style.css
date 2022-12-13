@@ -221,6 +221,10 @@ a:hover {
 
 .hero--container {
   margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .hero--container .hero--image {
   width: 100%;
@@ -237,6 +241,9 @@ a:hover {
   }
   .hero--image {
     max-width: 500px;
+  }
+  .hero--container {
+    flex-direction: row;
   }
 }
 .quienesSomos--text {
